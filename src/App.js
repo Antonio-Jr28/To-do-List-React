@@ -1,10 +1,18 @@
+import React from "react";
+ 
+class App extends React.Component {
+  constructor() {
+    super();
 
-function App() {
+    this.state = {};
+  }
+  
+  render() {
   return (
-    <div className="App">
+    <div>
       Olá, mundo!
     </div>
   );
 }
-
+}
 export default App;
